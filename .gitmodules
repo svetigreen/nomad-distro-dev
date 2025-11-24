@@ -1,3 +1,9 @@
 [submodule "packages/nomad-FAIR"]
 	path = packages/nomad-FAIR
 	url = https://gitlab.mpcdf.mpg.de/nomad-lab/nomad-FAIR.git
+[submodule "packages/nomad-battery-database"]
+	path = packages/nomad-battery-database
+	url = https://github.com/FAIRmat-NFDI/nomad-battery-database.git
+[submodule "packages/nomad-battery-space"]
+	path = packages/nomad-battery-space
+	url = https://github.com/nomad-hzb/nomad-battery-space.git
