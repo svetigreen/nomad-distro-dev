@@ -25,15 +25,17 @@ dependencies = [
   "nomad-battery-space", # experimental plugin for HZB
   "voila>=0.5.11",
   "nomad-hysprint",
+  "optimade[server]==1.1.6",
 ]
 
 [project.optional-dependencies]
 plugins = [
-  'nomad-hysprint @ git+https://github.com/nomad-hzb/nomad-hysprint.git',
+ 'nomad-hysprint @ git+https://github.com/nomad-hzb/nomad-hysprint.git',
 ]
 
 [tool.uv.workspace]
 members = ["packages/*"]
+
 
 [tool.uv.sources]
 nomad-lab = { workspace = true }

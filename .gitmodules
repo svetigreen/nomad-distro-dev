@@ -7,3 +7,6 @@
 [submodule "packages/nomad-hysprint"]
 	path = packages/nomad-hysprint
 	url = https://github.com/nomad-hzb/nomad-hysprint.git
+[submodule "packages/nomad-FAIR"]
+	path = packages/nomad-FAIR
+	url = https://gitlab.mpcdf.mpg.de/nomad-lab/nomad-FAIR.git
